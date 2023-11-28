@@ -1,0 +1,30 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', { value: true });
+var prefix = 'fas';
+var iconName = 'grid-round-2-plus';
+var width = 512;
+var height = 512;
+var aliases = [];
+var unicode = 'e5dc';
+var svgPathData = 'M128 224a96 96 0 1 1 0-192 96 96 0 1 1 0 192zm0 256a96 96 0 1 1 0-192 96 96 0 1 1 0 192zM480 128a96 96 0 1 1 -192 0 96 96 0 1 1 192 0zM384 272c13.3 0 24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H408v64c0 13.3-10.7 24-24 24s-24-10.7-24-24V408H296c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V296c0-13.3 10.7-24 24-24z';
+
+exports.definition = {
+  prefix: prefix,
+  iconName: iconName,
+  icon: [
+    width,
+    height,
+    aliases,
+    unicode,
+    svgPathData
+  ]};
+
+exports.faGridRound2Plus = exports.definition;
+exports.prefix = prefix;
+exports.iconName = iconName;
+exports.width = width;
+exports.height = height;
+exports.ligatures = aliases;
+exports.unicode = unicode;
+exports.svgPathData = svgPathData;
+exports.aliases = aliases;

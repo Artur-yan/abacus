@@ -1,0 +1,27 @@
+.NbExplorer{
+    background-color: #212121 !important;
+    color: #fff;
+    border-right: 1px solid #616161;
+}
+.searchFilter{
+    padding: 13px 10px 4px 13px;
+}
+.searchFilter input {
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 0 !important;
+    background: #212121 !important;
+}
+
+.menuIcon {
+    padding-right: 5px;
+}
+.red {
+    color: red;
+}
+
+:global(.file-browser-context-menu .ant-dropdown-menu-item){
+    padding:0;
+}
+.contextMenuItem{
+    padding: 5px 12px;
+}

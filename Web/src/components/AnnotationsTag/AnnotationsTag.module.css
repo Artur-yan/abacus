@@ -1,0 +1,33 @@
+.annotationsTag {
+	display: inline-block;
+	height: max-content;
+	padding: 3px 11px;
+	color: #fff;
+	background-color: orange;
+	border-radius: 24px;
+	cursor: pointer;
+	transition: 200ms all ease;
+	border: 2px solid transparent;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+.annotationsTagReadonly {
+	cursor: default !important;
+	font-size: 11px !important;
+	padding: 2px 7px !important;
+}
+
+.annotationsTagSelected {
+	border-color: #fff;
+}
+
+:not(.annotationsTagReadonly).annotationsTag:hover {
+	transform: scale(1.05);
+}
+
+.annotationsTagDelete {
+	margin-left: 9px;
+	cursor: pointer;
+}
+

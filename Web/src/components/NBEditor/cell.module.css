@@ -1,0 +1,74 @@
+.jp-Toolbar {
+  min-height: 27px;
+}
+
+.jp-CodeCell {
+  display: flex;
+  flex-direction: column;
+}
+
+.jp-Cell-inputWrapper {
+  flex: 0 0 auto;
+}
+
+.jp-Cell-outputWrapper {
+  flex: 1 1 auto;
+}
+
+.jp-OutputArea {
+  overflow: visible;
+}
+
+.jp-Completer-Cell {
+  position: fixed;
+}
+
+:global(#api-loader) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px 0;
+}
+:global(.loadingTxt) {
+  color: #fff;
+  font-size: 13px;
+}
+:global(.notebook-spinner) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 4px solid #222;
+  border-top-color: #009688;
+  border-bottom-color: #009688;
+  -webkit-animation: 1s spin linear infinite;
+  animation: 1s spin linear infinite;
+  margin-right: 5px;
+}
+
+:global(.executing-cell) {
+
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

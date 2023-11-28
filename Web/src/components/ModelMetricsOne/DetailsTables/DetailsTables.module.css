@@ -1,0 +1,59 @@
+.icon {
+  color: #6a9eef;
+}
+.icon:hover {
+  color: #dde4f5;
+}
+
+.tableDetail {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.table {
+  font-family: Roboto, serif;
+  font-size: 12px;
+}
+
+:global(.useDark) .header {
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  background-color: #23305e;
+  padding: 12px 4px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  color: #d1e4f5;
+}
+
+.algoCell{
+  padding: 8px 2px;
+}
+.algoFirstCell{
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  text-align: left;
+  color: #d1e4f5;
+  padding-left: 15px;
+}
+
+.tableDetail thead td:first-child {
+  border-top-left-radius: 8px;
+}
+
+.tableDetail thead td:last-child {
+  border-top-right-radius: 8px;
+}
+
+.tableDetail tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.tableDetail tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}

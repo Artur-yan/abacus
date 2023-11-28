@@ -1,0 +1,52 @@
+
+.siteLine {
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+:global(.useLight) .siteLine:not(.siteLineNon):hover {
+    background-color: rgba(87, 142, 210, 0.22);
+    border: 1px solid rgba(79, 129, 189, 0.43);
+}
+:global(.useDark) .siteLine:not(.siteLineNon):hover {
+    background-color: rgba(87, 142, 210, 0.56);
+    border: 1px solid rgba(79, 129, 189, 0.72);
+}
+
+:global(.useLight) .siteLineSel {
+    background-color: rgba(87, 142, 210, 0.09);
+    border: 1px solid rgba(79, 129, 189, 0.17);
+}
+:global(.useDark) .siteLineSel {
+    background-color: rgba(87, 142, 210, 0.64);
+    border: 1px solid rgba(79, 129, 189, 0.78);
+}
+
+.siteLine2 {
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+:global(.useLight) .siteLine2:not(.siteLineNon):hover {
+    background-color: rgba(87, 142, 210, 0.06);
+    border: 1px solid rgba(79, 129, 189, 0.12);
+}
+:global(.useDark) .siteLine2:not(.siteLineNon):hover {
+    background-color: rgba(87, 142, 210, 0.53);
+    border: 1px solid rgba(79, 129, 189, 0.76);
+}
+
+:global(.useLight) .siteLineSel2 {
+    background-color: rgba(87, 142, 210, 0.09);
+    border: 1px solid rgba(79, 129, 189, 0.17);
+}
+:global(.useDark) .siteLineSel2 {
+    background-color: rgba(87, 142, 210, 0.57);
+    border: 1px solid rgba(79, 129, 189, 0.72);
+}
+
+.ellips {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

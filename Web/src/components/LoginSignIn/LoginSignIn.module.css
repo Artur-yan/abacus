@@ -1,0 +1,18 @@
+
+.form1 :global(.ant-form-item-label) {
+    padding: 0 !important;
+    line-height: 1 !important;
+    height: 32px;
+}
+.form1 :global(.ant-form-item-label) label {
+    padding: 0 !important;
+    line-height: 1 !important;
+    height: 32px;
+}
+
+
+
+
+
+
+

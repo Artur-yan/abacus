@@ -1,0 +1,11 @@
+
+.timeline :global(.ant-timeline-item-head) {
+    background-color: #242b34 !important;
+}
+
+.timeline :global(.ant-timeline-item-content) {
+    color: white;
+}
+
+
+

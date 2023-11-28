@@ -1,0 +1,10 @@
+
+.img {
+    opacity: 0.8;
+}
+
+.img:hover, .img.selected {
+    opacity: 1;
+}
+
+

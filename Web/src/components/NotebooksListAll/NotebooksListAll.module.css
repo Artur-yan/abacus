@@ -1,0 +1,34 @@
+.groupList{
+    display: flex;
+    margin-left: 15px;
+}
+.groupList > label{
+    height: 30px;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #2e5bff;
+}
+.groupList > label span{
+    color: #fff;
+}
+.groupList > label:not(:first-child)::before{
+    content: none;
+}
+.groupList > label:last-child{
+    border-radius: 0 4px 4px 0;
+}
+.groupList > label:first-child{
+    border-radius: 4px 0 0 4px;
+    border-right-color: transparent !important;
+    border-left: 1px solid #2e5bff;
+}
+:global(.ant-radio-button.ant-radio-button-checked) {
+    background-color: #2e5bff;
+}
+:global(.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover),
+:global(.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)) {
+    background: #2e5bff;
+    border-color: #2e5bff;
+}

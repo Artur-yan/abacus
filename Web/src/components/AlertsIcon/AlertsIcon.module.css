@@ -1,0 +1,12 @@
+
+.root {
+    cursor: pointer;
+    opacity: 1;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+
+.root:hover {
+    background-color: rgba(149, 131, 100, 0.41);
+}
+

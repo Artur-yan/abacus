@@ -1,0 +1,123 @@
+
+.cellToolBarContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right:16px;
+    z-index: 9999;
+    background-color: #313131;
+    height:27px;
+}
+.cellToolbarItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 27px;
+    font-size: 14px;
+    width: 30px;
+}
+.cellToolbarItem:hover{
+    background-color: #484848;
+}
+
+.notebook{
+    padding-bottom: 200px;
+}
+.headlessNotebook{
+    padding-bottom: 20px;
+}
+
+/* .headlessNotebook :global(.jp-Cell-inputCollapser){
+    display: none;
+}
+.headlessNotebook :global(.jp-Notebook){
+    padding-left: 0;
+}
+.headlessNotebook :global(.jp-InputPrompt.jp-InputArea-promp){
+    flex-basis: 45px;
+} */
+
+/* :global(.notebook-root) {
+    min-height: 80vh;
+} */
+:global(.fast-nb-prompt-cell.jp-mod-selected .jp-InputArea-editor), :global(.fast-nb-prompt-cell .jp-InputArea-editor){
+    border: 1px solid #38BFA1;
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+}
+:global(.fast-nb-prompt-cell .jp-InputPrompt){
+    background-image: url("https://static.abacus.ai/app/imgs/prompt_cell_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 50%;
+    background-position-x: 90%;
+}
+:global(.jp-Notebook .jp-Cell.jp-mod-active.fast-nb-prompt-cell .jp-Collapser){
+    background: #38BFA1;
+}
+:global(.cellOptionsDropdown .ant-dropdown-menu-item:hover){
+    background-color: #2a425c;
+}
+:global(.cellOptionsDropdown .ant-dropdown-menu-item){
+    color: #fff;
+}
+.currentCellTypeTxt{
+    background-color: #131b26;
+    padding-bottom: 10px;
+}
+.completionContainer{
+    position: absolute;
+}
+.completionContainer:global(.ant-select .ant-select-selector){
+    height:0 !important;
+    border: none !important;
+}
+.optionContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.completionPopup{
+    background-color: #212121;
+    border:1px solid #616161;
+}
+:global(.completion-item){
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+    min-height: 24px;
+    line-height: 15px;
+}
+
+:global(.completion-item.ant-select-item-option-active), :global(.completion-item.ant-select-item-option-selected){
+    background-color: #2196f3;
+    color: #fff;
+}
+
+:global(.suggestion-type){
+    display: none;
+}
+:global(.completion-item.ant-select-item-option-active .suggestion-type), :global(.completion-item.ant-select-item-option-selected .suggestion-type){
+   display: inline;
+}
+
+/*
+:global(.jp-Notebook .jp-Cell) {
+    counter-increment: cell-counter;
+  }
+
+:global(.jp-Notebook .jp-Cell:before) {
+    content: counter(cell-counter);
+    display: inline-block;
+    width: 20px;
+    text-align: right;
+    margin-right: 6px;
+    color: #999;
+    font-size: 12px;
+    font-family: monospace;
+} */

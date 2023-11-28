@@ -1,0 +1,152 @@
+.dotFlashing {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: white;
+  animation: dotFlashing 1s infinite linear alternate;
+  animation-delay: 0.5s;
+}
+.dotFlashing::before, .dotFlashing::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+.dotFlashing::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: white;
+  animation: dotFlashing 1s infinite alternate;
+  animation-delay: 0s;
+}
+.dotFlashing::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: white;
+  animation: dotFlashing 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes dotFlashing {
+  0% {
+    background-color: white;
+  }
+  50%, 100% {
+    background-color: gray;
+  }
+}
+
+.projectBtn {
+  padding: 5px 10px;
+  height: 32px;
+  border: 1px solid white;
+  font-size: 14px;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #38BFA1;
+}
+
+.projectBtn:hover {
+  background: #58DFC1;
+}
+
+.codeInExplanation {
+  background-color: #d1e4f544;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.welcomeTitle {
+  font-family: Matter;
+  font-size: 20px;
+  font-weight: 600;
+  color: #d1e4f5;
+}
+
+.welcomeDesc {
+  font-family: Roboto;
+  font-size: 15px;
+  color: white;
+  margin: 2px 0;
+}
+
+.welcomeExample {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  background: #2DA388;
+  padding: 4px 8px;
+  width: fit-content;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.welcomeExample:hover {
+  box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.markdown {
+  font-size: 15px;
+}
+
+.markdown a {
+  color: #106ba3;
+  text-decoration: none;
+}
+
+.markdown pre {
+  color: #2DA3a8;
+}
+
+.markdown strong {
+  font-weight: bold;
+}
+
+.markdown em {
+  font-style: italic;
+}
+
+.codeActions{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  height: 90%;
+}
+.codeActionItem {
+  height:100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.codeActions > div:hover {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.stopButton, .stopLabel {
+  background: #323c44;
+  padding: 5px 10px;
+  color: lightGray;
+  opacity: 0.8;
+  font-size: 12px;
+  border: 1px solid lightGray;
+  border-radius: 2px;
+}
+
+.stopButton:hover {
+  color: #1890ff;
+  cursor: pointer;
+  border-color: #1890ff;
+}
+

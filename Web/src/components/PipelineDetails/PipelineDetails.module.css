@@ -1,0 +1,7 @@
+.tableButton {
+  margin: 4px;
+}
+
+.tableButton * {
+  color: #1890ff;
+}

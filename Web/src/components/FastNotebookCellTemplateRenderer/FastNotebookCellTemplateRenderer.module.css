@@ -1,0 +1,12 @@
+:global(.fast-nb-cell-template-container){
+    padding-left: 70px;
+    margin-bottom: 10px;
+}
+
+:global(.headless-fast-nb-cell-template-container){
+    padding-left: 65px;
+    margin-bottom: 10px;
+}
+.container{
+
+}

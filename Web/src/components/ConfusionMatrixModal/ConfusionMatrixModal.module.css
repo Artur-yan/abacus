@@ -1,0 +1,35 @@
+.payoffInput[class*="ant-input-number"] {
+  background-color: #424242 !important;
+  color: white;
+  width: 72px;
+}
+
+.form {
+  position: absolute;
+  width: 640px;
+  height: 640px;
+}
+
+.formItem {
+  position: absolute;
+}
+
+.formItem:nth-child(1) {
+  left: 230px;
+  top: 204px;
+}
+
+.formItem:nth-child(2) {
+  left: 442px;
+  top: 204px;
+}
+
+.formItem:nth-child(3) {
+  left: 230px;
+  bottom: 134px;
+}
+
+.formItem:nth-child(4) {
+  left: 442px;
+  bottom: 134px;
+}

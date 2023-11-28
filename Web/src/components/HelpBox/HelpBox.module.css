@@ -1,0 +1,15 @@
+
+.root {
+    border-radius: 4px;
+    border: 1px solid #0e4544;
+    background-color: #0e141c;
+    padding: 20px 26px 19px;
+    display: inline-block;
+}
+
+.rootFlex {
+    padding: 6px 14px 5px;
+    display: flex;
+    align-items: center;
+}
+

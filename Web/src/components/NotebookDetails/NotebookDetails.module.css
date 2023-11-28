@@ -1,0 +1,98 @@
+.container{
+    margin: 25px;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Matter, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: flex-end;
+}
+.openBtn{
+    width: fit-content;
+}
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nbAction{
+    padding-left: 10px;
+}
+.selectContainer{
+    vertical-align: top;
+    padding-top: 2px;
+    margin-left: 16px;
+    width: 440px;
+    font-size: 12px;
+}
+.detailsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex:1;
+}
+
+.activeVersionsContainer{
+    margin-top: 30px;
+}
+.activeVersionsHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.gpuEdit{
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.gpuEdit:hover{
+    color: #00b4ff;
+}
+.cronItem{
+    font-size: 14px;
+}
+
+.newCron{
+}
+
+.notebookIcon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* background-color: #6609f7; */
+    background-image: radial-gradient(ellipse at top, #6609f7, transparent),radial-gradient(ellipse at bottom, #833af0, transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.camelTxt{
+    text-transform: lowercase;
+    display: inline-block;
+}
+.camelTxt::first-letter{
+    text-transform: uppercase;
+}
+.schedulesContainer{
+
+}
+.padLeft{
+    padding-left: 30px;
+}

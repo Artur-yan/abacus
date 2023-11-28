@@ -1,0 +1,51 @@
+
+.root {
+    color: white;
+    background: black;
+    border: 1px solid rgba(151,151,151,0.88);
+}
+
+:global(.useLight) .root {
+    color: black;
+    background: rgb(229, 229, 229);
+    border: 1px solid rgba(151,151,151,0.88);
+}
+
+.Cell {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+}
+:global(.useLight) .Cell {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+.cellSpecialUse {
+    cursor: pointer;
+    padding: 0 12px;
+    border-radius: 10px;
+    background: rgba(22, 144, 255, 0.29);
+}
+:global(.useLight) .cellSpecialUse {
+    background: rgba(13, 46, 105, 0.29);
+}
+
+.cellSpecialUseEmpty {
+    cursor: pointer;
+    padding: 0 12px;
+    border-radius: 10px;
+    background: rgba(22, 144, 255, 0.21);
+    border: 1px solid rgba(22, 144, 255, 0.27);
+    width: 80px;
+    display: inline-block;
+}
+:global(.useLight) .cellSpecialUseEmpty {
+    background: rgba(13, 46, 105, 0.29);
+    border: 1px solid rgba(13, 46, 105, 0.59);
+}
+
+
+

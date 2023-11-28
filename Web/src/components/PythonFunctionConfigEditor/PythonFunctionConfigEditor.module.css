@@ -1,0 +1,58 @@
+.argInput{
+    line-height: 20px;
+    margin-right: 10px;
+}
+.divTable {
+    padding-top: 10px;
+    color: #fff;
+    display: table;
+    width: auto;
+    border-spacing: 5px; /* cellspacing:poor IE support for  this */
+    width: 100%;
+  }
+  .divTableRow {
+    display: table-row;
+    width: 100%;
+    clear: both;
+  }
+  .divTableCol {
+    float: left; /* fix for  buggy browsers */
+    display: table-column;
+    padding-right: 5px;
+    font-size: 14px;
+  }
+  .required {
+    width: 10%;
+    cursor: pointer;
+  }
+
+  .required :global(.ant-checkbox-checked .ant-checkbox-inner::after){
+    display: block;
+  };
+
+  .divTableCol.delete{
+    padding-top: 6px;
+    width: 5%;
+    cursor: pointer;
+  }
+  .argName{
+    width: 28%;
+  }
+  .argName input{
+    height: 35px !important;
+    border-radius: 0 !important;
+  }
+  .type{
+    width: 29%;
+  }
+  .value{
+    width: 28%;
+  }
+  .value input{
+    height: 35px !important;
+    border-radius: 0 !important;
+  }
+  .addError{
+    text-align: center;
+    color:red;
+  }

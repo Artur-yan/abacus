@@ -1,0 +1,15 @@
+.chartHeader{
+  padding-left: 20px;
+}
+.titleContainer{
+  display: inline-flex;
+  align-items: center;
+}
+.title{
+  font-size: 13px;
+  margin-right: 7px;
+}
+.select{
+  width: 400px;
+  display: inline-block;
+}

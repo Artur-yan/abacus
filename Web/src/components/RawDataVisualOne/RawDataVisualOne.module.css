@@ -1,0 +1,15 @@
+
+.tagItem {
+    vertical-align: middle;
+    font-size: 13px;
+    padding: 6px 16px;
+    background-color: #101720;
+    border-radius: 0;
+    border: 1px solid #686868;
+    font-weight: 200;
+    margin-top: 2px;
+}
+:global(.useLight) .tagItem {
+    color: black;
+    background-color: white;
+}

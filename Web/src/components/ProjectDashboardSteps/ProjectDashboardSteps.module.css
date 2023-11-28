@@ -1,0 +1,18 @@
+
+.root {
+
+}
+
+.root :global(.ant-btn-primary) {
+    background-color: #2e5bff;
+    border-color: #2e5bff;
+}
+
+.root :global(.ant-btn-primary:hover),
+.root :global(.ant-btn-primary:focus) {
+    color: #fff;
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+
+

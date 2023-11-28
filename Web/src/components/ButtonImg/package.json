@@ -1,0 +1,6 @@
+{
+  "name": "ButtonImg",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ButtonImg.js"
+}

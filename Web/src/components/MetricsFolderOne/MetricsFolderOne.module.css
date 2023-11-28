@@ -1,0 +1,17 @@
+.header{
+    cursor: pointer;
+    text-align: left;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+
+}
+.valueHeader{
+    padding: 13px 5px;
+    border-left: 3px solid #8c54ff;
+}
+.folderHeader{
+    padding: 13px 5px;
+    border-left: 3px solid #2e5bff;
+}

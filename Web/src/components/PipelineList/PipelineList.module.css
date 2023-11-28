@@ -1,0 +1,20 @@
+.container {
+  margin: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deletePipelineButton {
+  margin: -6px -12px;
+  padding: 6px 12px;
+  color: red;
+}

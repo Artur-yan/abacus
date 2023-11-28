@@ -1,0 +1,58 @@
+.feedbackButtonContainer {
+  width: 24px;
+  height: 24px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedbackButtonContainer:hover {
+  cursor: pointer;
+  background: #4990E2;
+}
+
+.searchResultContainer {
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  flex-direction: row;
+}
+
+.answerContainer {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  font-weight: 300;
+  font-family: Matter, Roboto, sans-serif;
+}
+
+.feedbackInput {
+  width: 560px;
+  min-height: 80px !important;
+  font-size: 12px;
+  border: 1px solid #595959;
+  background-color: #0C121B;
+  border-radius: 4px;
+  box-shadow: none;
+  color: white;
+}
+
+.markdown tr {
+  border-top: 1px solid #c6cbd1;
+}
+
+.markdown th,
+.markdown td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.shareBtn {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

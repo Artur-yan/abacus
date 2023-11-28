@@ -1,0 +1,40 @@
+.lookbackInput{
+    width: 100%;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+.row p{
+    text-transform: capitalize;
+    color: #38bfa1;;
+}
+.container{
+    padding: 0;
+    width: 175px;
+    color:#fff
+}
+.row div[class='ant-input-number-handler-wrap'] {
+    opacity: 1;
+}
+.lookbackWindowPopover span[class='ant-popover-arrow-content']{
+    background-color: #223347;
+    width:20px;
+    height: 20px;
+}
+.lookbackWindowPopover div[class='ant-popover-arrow']{
+    width: 25px;
+    height: 15px
+}
+.windowInput{
+    width:65px;
+}
+.windowInput input[class='ant-input-number-input']{
+    height:28px;
+    font-size: 12px;
+}

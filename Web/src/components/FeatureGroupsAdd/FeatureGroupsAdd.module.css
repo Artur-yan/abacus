@@ -1,0 +1,58 @@
+.formItemContainer {
+    display: flex;
+    align-items: center;
+}
+
+.formItemContainer:last-child:not(:first-child) {
+    margin-bottom: 16px;
+}
+
+.formItemPackage {
+   /* margin: 10px 0; */
+     /* width: calc(50% - 72px); */
+    flex:1;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+.packagesLbl{
+    display: inline-block;
+    padding: 9px 0;
+}
+
+.formItemPackage.label {
+    margin: 0 10px;
+    padding: 0;
+    width: auto;
+    font-size: 12px;
+    font-family: 'Matter';
+    flex: unset;
+}
+
+.greyBulletPoint {
+    display: inline-block;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background: rgba(255,255,255,0.35);
+}
+
+.codeInExplanation {
+    background-color: #d1e4f544;
+    padding: 2px;
+    border-radius: 2px;
+}
+.pythonContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.packages{
+    width: 100%;
+}
+.newpyContainer{
+    display: flex;
+    flex-direction: row;
+}
+.newpyContainer > div{
+    width: 50%;
+}

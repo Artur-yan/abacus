@@ -1,0 +1,11 @@
+:global(.preview-col-text .ant-popover-inner-content){
+    color: #fff;
+    max-width: 300px;
+    max-height: 200px;
+    overflow: scroll;
+}
+.colText{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

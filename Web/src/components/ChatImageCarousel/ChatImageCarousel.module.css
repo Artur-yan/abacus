@@ -1,0 +1,77 @@
+.chatImageContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+}
+
+.chatImageContainer:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carouselContainer {
+  max-width: 232px;
+  text-align: center;
+}
+
+.carouselContainer.modalContainer {
+  max-width: 932px;
+}
+
+.modalTitle {
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+.carouselContainer [class*="ant-carousel"] [class*="slick-prev"],
+.carouselContainer [class*="ant-carousel"] [class*="slick-prev"]:hover,
+.carouselContainer [class*="ant-carousel"] [class*="slick-prev"]:focus {
+  font-size: 24px;
+  left: 10px;
+  z-index: 2;
+  color: #87a1ff;
+}
+
+.carouselContainer [class*="ant-carousel"] [class*="slick-prev"]::before {
+  content: '';
+}
+
+.carouselContainer [class*="ant-carousel"] [class*="slick-next"],
+.carouselContainer [class*="ant-carousel"] [class*="slick-next"]:hover,
+.carouselContainer [class*="ant-carousel"] [class*="slick-next"]:focus {
+  font-size: 24px;
+  right: 10px;
+  z-index: 2;
+  color: #87a1ff;
+}
+
+.carouselContainer [class*="ant-carousel"] [class*="slick-next"]::before {
+  content: '';
+}
+
+.carouselContainer [class*="ant-carousel"] [class*="slick-dots"] {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.carouselContainer [class*="ant-carousel"] [class*="slick-dots"] [class*="slick-active"] {
+  color: #87a1ff;
+}
+
+.highlightedBox {
+  position: absolute;
+  color: white;
+  border: 1px solid rgba(73, 144, 226, 0.667);
+  background-color: rgba(73, 144, 226, 0.2);
+  border-radius: 2px;
+}
+
+.imageWrapper {
+  position: relative;
+}

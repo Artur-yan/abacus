@@ -1,0 +1,57 @@
+.tagCloudContainer {
+  margin: 8px 0;
+  padding: 8px 16px;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.tagContent {
+  margin-right: 14px;
+  margin-bottom: 10px;;
+}
+
+.tagCloud {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  max-height: 80px;
+}
+
+.tagX {
+  margin-left: 10px;
+}
+
+.selectedTag {
+  margin-left: 4px;
+}
+
+.clearButton {
+  color: #1890ff;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.mainTag {
+  display: inline-block;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  text-transform: uppercase;
+  padding: 3px 11px;
+  color: black;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 200ms all ease;
+  border: 2px solid transparent;
+  font-size: 14px;
+  white-space: nowrap;
+}

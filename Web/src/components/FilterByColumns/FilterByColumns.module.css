@@ -1,0 +1,8 @@
+.checkboxesWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkboxesWrapper :global(.ant-checkbox-wrapper + .ant-checkbox-wrapper) {
+  margin-left: 0px;
+}

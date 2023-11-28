@@ -1,0 +1,56 @@
+.table td {
+  vertical-align: baseline;
+  padding: 8px;
+}
+
+.table tr td {
+  width: 240px;
+}
+
+.table tr td:nth-child(1) {
+  width: 56px;
+}
+
+.table tbody {
+  max-height: 600px;
+  overflow: auto;
+}
+.table tbody tr {
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.editIcon {
+  opacity: 0.4;
+  color: white;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.editIcon:hover {
+  opacity: 1;
+}
+
+.table input {
+  font-size: 12px;
+  color: #fff;
+  border: 1px solid #595959;
+  background-color: #0C121B;
+  box-shadow: none;
+  height: 34px;
+}
+
+.table [class*="ant-checkbox-checked"] [class*="ant-checkbox-inner"] {
+  background-color: #2e5bff;
+}
+
+.errorContainer {
+  font-size: 13px;
+  height: 20px;
+  margin: 4px;
+  color: red;
+  text-align: right;
+}
+
+.fullWidth {
+  width: 100%;
+}

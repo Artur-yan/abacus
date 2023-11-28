@@ -1,0 +1,33 @@
+
+.root {
+    cursor: pointer;
+    padding: 6px 8px;
+    border: 1px solid rgba(255,255,255,0.13);
+    margin-bottom: 6px;
+    border-radius: 4px;
+}
+:global(.useLight) .root {
+    border: 1px solid rgba(0,0,0,0.13);
+}
+
+.root:hover:not(.selected) {
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    background: rgba(255, 255, 255, 0.18);
+}
+:global(.useLight) .root:hover:not(.selected) {
+    border: 1px solid rgba(0,0,0, 0.33);
+    background: rgba(0,0,0, 0.1);
+}
+
+.root.selected {
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    background: #292A2B;
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.5);
+}
+:global(.useLight) .root.selected {
+    border: 1px solid rgba(0,0,0, 0.23);
+    background: rgba(0,0,0, 0.21);
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+}
+
+

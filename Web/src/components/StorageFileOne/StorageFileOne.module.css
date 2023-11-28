@@ -1,0 +1,70 @@
+
+.root {
+    cursor: pointer;
+    color: black;
+    font-size: 12px;
+    padding: 6px 4px;
+    border: 1px solid transparent;
+    border-bottom: 1px dotted rgba(0,0,0,0.2);
+}
+:global(.useDark) .root {
+    color: white;
+    border-bottom: 1px dotted rgba(255,255,255,0.2);
+}
+
+.root:hover:not(.expanded), .rootSel:not(.expanded) {
+    background: #2f3f51;
+    border: 1px solid #39608c;
+}
+:global(.useLight) .root:hover:not(.expanded), :global(.useLight) .rootSel:not(.expanded) {
+    background: rgba(73, 144, 226, 0.56);
+    border: 1px solid rgba(73, 144, 226, 0.46);
+}
+
+.icon {
+    opacity: 0.74;
+}
+
+.icon:hover .chevron {
+    opacity: 1;
+}
+
+.chevron {
+    opacity: 0.5;
+}
+
+.root:hover .chevron {
+    opacity: 1;
+}
+
+.extra {
+    opacity: 0.64;
+}
+
+.root:hover .extra {
+    opacity: 0.84;
+}
+
+.slideDown, .slideDown * {
+    transition: color 30ms;
+}
+
+.versionsText {
+    color: #4990E2;
+}
+
+.expanded .slideDown, .slideDown:hover {
+    cursor: pointer;
+    background: rgba(255,255,255,0.3);
+    color: white !important;
+}
+:global(.useLight) .expanded .slideDown, :global(.useLight) .slideDown:hover {
+    background: rgba(0,0,0,0.25);
+    color: white !important;
+}
+
+.expanded .versionsText, .slideDown:hover .versionsText {
+    color: white !important;
+}
+
+

@@ -1,0 +1,20 @@
+.baseButton {
+  font-family: Matter, sans-serif;
+  border-radius: 4px;
+}
+
+/* upgrade antd to latest version and start using themes instead */
+:global(.ant-btn-primary) {
+  background-color: #2e5bff;
+  border-color: #3f65ee;
+  border-radius: 4px;
+}
+
+.internal,
+.internal:hover,
+.internal:focus {
+  background: transparent;
+  /* using material ui to manage design tokens, otherwise will need to duplicate tokens in js and css files */
+  color: var(--mui-palette-secondary-main);
+  border: 1px solid var(--mui-palette-secondary-main);
+}

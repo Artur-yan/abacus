@@ -1,0 +1,13 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 240,
+  "overrides": [
+    {
+      "files": "./src/components/NavLeft/NavLeft.tsx",
+      "options": {
+        "printWidth": 1200
+      }
+    }
+  ]
+}

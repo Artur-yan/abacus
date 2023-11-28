@@ -1,0 +1,39 @@
+.chartHeader{
+  padding-left: 20px;
+}
+.titleContainer{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 12px;
+  left: 132px;
+  width: calc(100% - 132px);
+  z-index: 5;
+}
+
+.alignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  font-size: 13px;
+  margin-right: 7px;
+}
+.select{
+  width: 256px;
+  display: inline-block;
+}
+
+.switchLabel {
+  margin: 0 4px;
+}
+
+.selectedLabel {
+  color: #58c0a3;
+}
+
+.titleContainer [class*="ant-switch-checked"] {
+  background-color: #58c0a3;
+}

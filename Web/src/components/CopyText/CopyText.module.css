@@ -1,0 +1,9 @@
+
+.icon {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 1;
+}

@@ -1,0 +1,16 @@
+
+.dropper:global(.ant-upload.ant-upload-drag) {
+    background-color: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.35);
+}
+
+.dropper:global(.ant-upload.ant-upload-drag-hover) {
+    background-color: rgba(255,255,255,0.3);
+}
+.fileWarning{
+    color: #faad14;
+}
+
+.fileWarning svg {
+    padding-right: 5px;
+}

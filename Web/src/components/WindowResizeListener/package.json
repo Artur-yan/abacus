@@ -1,0 +1,6 @@
+{
+  "name": "WindowResizeListener",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./WindowResizeListener.js"
+}

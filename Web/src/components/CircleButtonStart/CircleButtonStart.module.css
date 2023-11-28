@@ -1,0 +1,31 @@
+
+.circleButton {
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.animCircle {
+    background: #2c5fc6;
+    animation: animatedBackground 3s ease infinite;
+}
+
+.normalCircle .circleCenter:not(.animCircle) {
+    background: linear-gradient(-45deg, #0CCFE4 0%, #3391ED 57%, #8C54FF 100%);
+    box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+.normalCircle:hover .circleCenter:not(.animCircle) {
+    background: linear-gradient(-45deg, #1795a3 0%, #2b71b6 57%, #5934a5 100%);
+}
+
+@keyframes animatedBackground {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+

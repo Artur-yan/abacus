@@ -1,0 +1,18 @@
+
+.checkSel {
+    display: none;
+}
+
+.selected .checkSel {
+    display: block;
+    position: absolute;
+    right: -7px;
+    top: -6px;
+    width: 16px;
+    height: 16px;
+    background-color: #2e5bff;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+

@@ -1,0 +1,20 @@
+
+.root {
+    border-radius: 4px;
+    padding: 3px;
+    white-space: nowrap;
+}
+
+:global(.useLight) .root {
+}
+:global(.useDark) .root {
+}
+
+.rect {
+    border-radius: 4px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+}
+:global(.useLight) .rect {
+}
+

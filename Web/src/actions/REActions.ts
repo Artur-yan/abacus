@@ -1,0 +1,38 @@
+import Reflux from 'reflux';
+
+const REActions = Reflux.createActions([
+  'notebookUpdated',
+  'editorElemSetValue',
+  'addNotification',
+  'addNotificationError',
+  'clearNotifications',
+  'lightboxShow',
+  'headerNeedsShadow',
+  'scrollToTopMain',
+  'refreshEveryMinuteReal',
+  'onDarkModeChanged',
+  'openMenuDropdown',
+  'needLogin',
+  'reprocessParams',
+  'showHelpSlide',
+  'hideHelpSlide',
+  'uploadsRefresh',
+  'onResizeSpecial',
+  'userDropdownShowHide',
+  'modelsReplyCommentWithUserHandler',
+  'flagsRefresh',
+  'showOrgHint',
+  'showOrgHintClear',
+  'navLeftCollapsed',
+  'searchAdv',
+  'onChangeOrgHappened',
+  'onChangeAdvForm',
+  'orgAnyError',
+  'nlpHoverAnnotation',
+  'resetAllMetrics',
+  'fullRefreshHappened',
+  'annotationTagModalForce',
+  'initiateTwoFactorAuthentication',
+]);
+
+export default REActions;

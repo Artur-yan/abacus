@@ -1,0 +1,11 @@
+.hide {
+    visibility: hidden;
+}
+
+.hide:hover {
+    visibility: visible;
+}
+
+img:hover + .hide {
+    visibility: visible;
+}

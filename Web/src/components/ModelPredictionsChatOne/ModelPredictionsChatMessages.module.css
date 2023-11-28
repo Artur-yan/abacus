@@ -1,0 +1,13 @@
+.blueIcon {
+    font-size: 30px;
+    color: #1890ff;
+    margin: 0 10px;
+}
+
+.blueIcon:hover {
+    color: #38b0ff;
+}
+
+.actionsButton {
+  margin: 4px;
+}

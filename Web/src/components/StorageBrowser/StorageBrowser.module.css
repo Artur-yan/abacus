@@ -1,0 +1,13 @@
+
+.backIcon {
+    cursor: pointer;
+    opacity: 0.8;
+    color: rgba(255,255,255,0.6);
+}
+:global(.useLight) .backIcon {
+    color: rgba(0,0,0,0.6);
+}
+
+.backIcon:hover {
+    opacity: 1;
+}

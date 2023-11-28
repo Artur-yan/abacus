@@ -1,0 +1,18 @@
+.bodyContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.logsContainer {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.log {
+  color: white;
+  font-family: Matter, sans-serif;
+  font-size: 14px;
+  padding: 16px 16px 0;
+  border-radius: 4px;
+}

@@ -1,0 +1,20 @@
+.hide {
+    visibility: hidden;
+}
+
+.hide:hover {
+    visibility: visible;
+}
+
+img:hover + .hide {
+    visibility: visible;
+}
+
+.historyItem {
+    border-width: 2px;
+    border-style: solid;
+}
+
+.historyItem:hover {
+    border-color: grey;
+}

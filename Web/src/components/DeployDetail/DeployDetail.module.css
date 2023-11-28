@@ -1,0 +1,31 @@
+.infrastructureConfigContainer {
+  align-items: center;
+  margin-left: 16px;
+  font-size: 16px;
+}
+
+.infrastructureConfigKey {
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.infrastructureConfigValue {
+  text-transform: capitalize;
+}
+
+.infrastructureConfigTable tr td {
+  padding: 8px;
+  height: 48px;
+  white-space: nowrap;
+  text-align: start;
+}
+
+.infrastructureConfigTable tr td:first-child {
+  width: 180px;
+}
+
+.restartDeploymentMessage {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: normal;
+}

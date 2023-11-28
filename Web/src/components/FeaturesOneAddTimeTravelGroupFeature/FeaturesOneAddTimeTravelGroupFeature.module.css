@@ -1,0 +1,84 @@
+.container {
+  color: white;
+  padding: 20px 23px;
+}
+
+.divider {
+  border-top: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.form {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.contentTitle {
+  font-size: 24px;
+  line-height: 1.33;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.sampleContainer {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-top: 0;
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #303030;
+}
+
+.editInstructions {
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 5px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.sampleTitle {
+  font-size: 14px;
+  color: #337dee !important;
+  text-align: center;
+}
+
+.sampleList {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  text-align: center;
+}
+
+.nameInput[class*="ant-input-disabled"] {
+  background-color: #424242 !important;
+}
+
+.sqlContainer {
+  font-family: Roboto;
+  letter-spacing: 1.31px;
+  margin: 14px 0;
+}
+
+.editHint {
+  font-size: 14px;
+  margin-top: 5px;
+  letter-spacing: 0;
+}
+
+.radio {
+  color: white;
+  font-size: 14px;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+
+.columnsContainer label {
+  width: 100%;
+}
+
+.columnsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}

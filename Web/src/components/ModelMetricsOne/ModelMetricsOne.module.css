@@ -1,0 +1,86 @@
+
+.icon {
+    color: #6a9eef;
+}
+.icon:hover {
+    color: #dde4f5;
+}
+
+.chart {
+    border: 2px solid transparent;
+    transition: border 300ms;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #19232f;
+}
+.chart.high {
+    border-color: #76cb7f;
+}
+
+.chart :global(.ct-series-a .ct-circle) {
+    stroke: white;
+    stroke-width: 1.5px;
+    stroke-linecap: round;
+    fill: #2e5bff;
+}
+
+.chart :global(.ct-line-line2) {
+    stroke: #2e5bff;
+    stroke-width: 2px;
+    stroke-linecap: round;
+}
+
+.chart :global(.ct-chartist-title-top) {
+    font-family: Matter, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.38;
+    color: #d1e4f5;
+}
+
+.chart :global(.ct-axis-title) {
+    font-family: Matter, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.38;
+    text-align: center;
+    fill: #d1e4f5;
+}
+
+.chart :global(.ct-label.ct-vertical), .chart :global(.ct-label.ct-horizontal) {
+    font-family: Matter, sans-serif;
+    font-weight: 400;
+    color: #8798ad;
+}
+
+.chart :global(.ct-grid.ct-vertical), .chart :global(.ct-grid.ct-horizontal) {
+    stroke: #4c5b92;
+}
+
+.tableDetail {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.table {
+    font-family: Roboto, serif;
+    font-size: 12px;
+}
+
+:global(.useDark) .header {
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    background-color: #23305e;
+    padding: 8px 4px;
+
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.33;
+    color: #d1e4f5;
+}
+
+
+

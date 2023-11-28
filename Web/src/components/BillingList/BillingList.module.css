@@ -1,0 +1,14 @@
+
+.setDefault {
+    opacity: 0.35;
+}
+.setDefault:hover {
+    opacity: 0.8;
+}
+
+.setDefault .setDefaultName {
+    display: none;
+}
+.setDefault:hover .setDefaultName {
+    display: inline-block;
+}

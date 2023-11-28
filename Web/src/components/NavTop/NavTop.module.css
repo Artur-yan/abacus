@@ -1,0 +1,40 @@
+
+.anim {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.withShadow {
+    z-index: 2;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 3px rgba(12,13,14,0.1), 0 4px 20px rgba(12,13,14,0.035), 0 1px 1px rgba(12,13,14,0.025);
+}
+
+.but {
+
+}
+
+.but:hover {
+    background-color: #efefef;
+}
+
+.butSel {
+
+}
+
+.bottomButton {
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 0 6px 1px 6px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.bottomButton:hover {
+    background-color: #efefef !important;
+}
+
+.butSel .bottomButton {
+    background-color: rgba(239, 239, 239, 0.8);
+}
+
+

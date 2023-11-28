@@ -1,0 +1,47 @@
+.editButtonsContainer {
+  margin-left: 8px;
+}
+
+.editButton {
+  margin: 0 4px;
+}
+
+.versionAnalysisButton {
+  margin: 4px;
+}
+
+.deleteButton {
+  padding: 0 16px;
+  margin-right: 8px;
+  border-color: transparent !important;
+}
+
+.startBPButton {
+  margin-top: 16px;
+}
+
+.driftAnalysisTitle {
+  font-weight: 500;
+  opacity: 0.8;
+  line-height: 1.6;
+  color: #d1e4f5;
+  font-size: 18px;
+  font-family: Matter;
+  margin-top: 16px;
+}
+
+.driftAnalysisContainer {
+  margin: 8px 20px;
+}
+
+.driftAnalysisItem {
+  font-weight: 500;
+  opacity: 0.8;
+  line-height: 1.6;
+  font-size: 18px !important;
+  font-family: Matter;
+}
+
+.separator {
+  margin: 0 4px;
+}

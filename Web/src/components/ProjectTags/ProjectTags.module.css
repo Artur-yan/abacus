@@ -1,0 +1,38 @@
+.tagCloudContainer {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.tagCloud {
+    text-align: center;
+}
+
+.tagContent {
+    margin-right: 14px;
+    margin-bottom: 10px;;
+}
+
+.tagX {
+    margin-left: 10px;
+}
+
+.mainTag {
+    display: inline-block;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    text-transform: uppercase;
+    padding: 3px 11px;
+    color: black;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 200ms all ease;
+    border: 2px solid transparent;
+    font-size: 10px;
+    white-space: nowrap;
+}

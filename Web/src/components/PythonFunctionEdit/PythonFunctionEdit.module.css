@@ -1,0 +1,15 @@
+.container{
+    margin: 25px;
+    background-color: #111111;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.notebookContainer{
+    position: relative;
+    height: 100%;
+}

@@ -1,0 +1,10 @@
+.preStyles {
+  display: inline;
+  white-space: normal;
+  font-family: Matter, Roboto, sans-serif;
+  font-size: 13px;
+}
+
+.labelStyles {
+  margin-left: 4px;
+}

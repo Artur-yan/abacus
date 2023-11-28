@@ -1,0 +1,70 @@
+
+.width60 {
+    min-width: 60%;
+}
+
+.connectButton {
+    background-color: #285d9c;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer !important;
+}
+
+.connectIcon {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+}
+
+.connector_list {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 10px 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+
+.connector_list_item {
+    position: relative;
+    float: left;
+    min-width: 16.66%;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 12px 12px 10px;
+    border-radius: 4px;
+    background: #19232f;
+}
+.connector_list_item:hover {
+    cursor: pointer;
+    background-color: #193653;
+}
+
+
+.connector_list_item img {
+    /*margin: 12px 0 8px;*/
+    position: relative;
+    top: 40%;
+}
+
+.connector_list_item span {
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+

@@ -1,0 +1,14 @@
+
+.box {
+    display: block;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 3px;
+    color: #1d2129;
+    border: 1px solid transparent;
+}
+
+.box:hover, .boxSel {
+    background-color: #f6f7f9;
+    border: 0.5px solid #dddfe2;
+}

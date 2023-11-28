@@ -1,0 +1,45 @@
+.pitAccordionCollapsed{
+    transform: rotate(0deg);
+    padding-top: 5px;
+}
+
+.pitAccordionExpanded{
+    transform: rotate(180deg);
+    padding-bottom: 5px;
+}
+
+.pitChevron{
+    margin-left: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+    vertical-align: middle
+}
+
+.truncatedText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.truncatedText span:nth-child(2){
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.shadowElement{
+    opacity: 0;
+    height:0;
+    margin-bottom: 0;
+}
+
+:global(.ant-tooltip) .shadowElement{
+    opacity: 1;
+    height:auto;
+}
+
+:global(.ant-tooltip) .truncatedText {
+    display: none;
+}

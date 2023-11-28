@@ -1,0 +1,16 @@
+.driftRadioBtn {
+    flex: 1;
+    display: flex;
+}
+
+.radioContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.featureImportance :global(.ct-chartist-title-top) {
+    opacity: 0;
+    height: 50px;
+}

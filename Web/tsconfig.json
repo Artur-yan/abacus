@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "target": "es6",
+    "jsx": "react",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "types": ["node", "core-js", "./styled.d.ts"],
+    "lib": ["es2018", "dom"],
+    "outDir": "build",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "**/!(styled|css)*.d.ts", "build"]
+}

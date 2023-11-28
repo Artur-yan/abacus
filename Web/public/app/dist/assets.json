@@ -1,0 +1,5 @@
+{
+  "main": {
+    "js": "/app/dist/main.js"
+  }
+}

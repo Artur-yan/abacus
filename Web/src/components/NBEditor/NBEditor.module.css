@@ -1,0 +1,180 @@
+.rootContainer {
+  height: 100%;
+  color: #fff;
+}
+
+.topNavContainer {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+  background-color: #212121;
+  border-bottom: 1px solid #616161;
+}
+
+.fileTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+}
+
+.fileNameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.abacusTxt {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.notebookTxt {
+  font-size: 20px;
+}
+
+.nbIcon {
+  font-size: 27px;
+}
+
+.explorerContainer {
+  background-color: #212121;
+  bottom: 30px;
+  padding-right: 10px;
+  border-right: 1px solid #616161;
+}
+
+:global(.cell-toolbar) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+:global(.jp-cell-toolbar) {
+  position: absolute;
+  top:0;
+  right:0
+}
+
+:global(.jp-mod-selected .jp-InputArea-editor) {
+  background-color: transparent;
+  border: 1px solid #2196f3;
+}
+
+.notebookToolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #212121;
+  border-bottom: 1px solid #616161;
+  color: #fff;
+  padding: 5px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+.notebookToolbarTransparent {
+  /* background-color: #111111; */
+  background-color: #212121;
+  border-bottom: none;
+  text-align: end;
+  font-size: 11px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rightContainer {
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  color: #fff;
+}
+
+.notebookContainer {
+  position:relative;
+  flex:1;
+  background-color: #111111;
+}
+
+.notebookToolbarItem {
+  color: #dadada;
+}
+
+.notebookToolbarItem:hover, .notebookToolbarItem:active, .notebookToolbarItem:focus {
+  color: #4990E2;
+}
+
+.notebookToolbarItem span {
+  margin-left: 5px;
+}
+
+.rootContainer {
+  z-index: 9999;
+}
+
+.templateButton {
+  z-index:9999;
+  font-size: 12px;
+  margin: 0 4px;
+}
+
+.externalButton,
+.externalButton:hover,
+.externalButton:focus {
+  color: #1890ff;
+}
+
+.notebookMode {
+    text-transform: capitalize;
+    padding-right: 10px;
+}
+
+.keyboardShortcuts {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.keyboardShortcuts:hover {
+  color: #4990E2;
+}
+
+:global(.keyboard-shortcuts-modal .ant-modal-confirm-btns){
+  text-align: center;
+}
+:global(.keyboard-shortcuts-modal .ant-modal-confirm-title){
+  text-align: center;
+  color: #38bfa1;
+  margin-bottom: 20px;
+}
+
+.keysContainer .key {
+  width:40%;
+  display: inline-block;
+  line-height: 25px;
+}
+.keysContainer .action {
+  width:60%;
+  display: inline-block;
+  line-height: 25px;
+}
+.headlessModeStatus{
+
+}
+
+:global(#notebook-container *),
+:global(#notebook-container *::before),
+:global(#notebook-container *::after) {
+    box-sizing: unset;
+}
+
+.openLink{
+  padding-left: 10px;
+}
+
+.runAllBtn:hover{
+  cursor: pointer;
+  color: #1890ff;
+}
+

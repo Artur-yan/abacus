@@ -1,0 +1,129 @@
+.nodeContainer p{
+    margin-bottom: 0;
+  }
+  .fgTitle{
+    font-size: 17px;
+    margin-bottom: 16px;
+  }
+  .textContainer{
+    word-break: break-all;
+  }
+  .copyIcon{
+    font-size: 13px;
+  }
+  .copyIcon:hover{
+    cursor: pointer;
+  }
+  .nodeContainer{
+    width: 100%;
+    height:100%;
+    border-radius: 1px;
+    background-image: linear-gradient(to bottom, #253341, #19232f 104%);
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: space-between;
+  }
+
+  .leftContainer{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .fgTableTxt{
+    font-family: Matter;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: var(--white);
+    word-break: break-word;
+  }
+  .fgIdTxt{
+    font-family: Matter;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.26px;
+    color: var(--white);
+    flex-grow: 1;
+  }
+  .dateCreatedTxt{
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #d1e4f5;
+  }
+  .editIcon{
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    padding-bottom: 3px;
+  }
+  .editIcon > g > g > path{
+    fill: #1990ff !important
+  }
+  .rightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3px;
+  }
+  .templateFgIcon{
+    background: #38bfa1;
+    border-radius: 50%;
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  :global(.diagram .dxdi-canvas){
+    background-color: #0b121b !important;
+  }
+  :global(.diagram .dxdi-canvas .dxdi-page-shadow){
+    filter: none !important;
+    fill: none
+  }
+  :global(.diagram .dxdi-canvas .page){
+    fill: #0b121b;
+  }
+  :global(.diagram #page-text-flood feFlood) {
+    flood-color: #0b121b;
+  }
+
+  .tooltipTitle {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    max-height: 180px;
+    overflow-y: auto;
+  }
+
+  .paramsTitle {
+    margin: 8px 0 0;
+  }
+
+  .paramsContainer {
+    margin: 0;
+  }
+
+  .paramRow {
+    margin: 0;
+    word-break: break-word;
+  }
+
+  [class*="ant-tooltip-inner"]:has(.tooltipTitle) {
+    width: 352px;
+  }

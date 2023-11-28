@@ -1,0 +1,181 @@
+
+.isDetail {
+
+}
+
+.isDetail :global(.MuiTableCell-root.MuiTableCell-head.MuiTableCell-paddingCheckbox.MuiTableCell-stickyHeader) {
+    background-color: #23305e;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0;
+    border: none;
+}
+
+.isDetail :global(.MuiTableCell-root.MuiTableCell-body.MuiTableCell-paddingCheckbox) {
+    border: none;
+}
+
+.isDetail :global(.ReactVirtualized__Table__headerRow) {
+    background-color: #23305e;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.isDetail :global(.ReactVirtualized__Table__row:last-child) {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+:global(.useDark) .root {
+    color: rgba(255, 255, 255, 0.85);
+}
+:global(.useDark .ant-table-thead > tr) {
+    background: #343434;
+}
+:global(.useDark) .isDetail.root :global(thead tr th:first-child) {
+    border-top-left-radius: 8px;
+}
+:global(.useDark) .isDetail.root :global(thead tr th:last-child) {
+    border-top-right-radius: 8px;
+}
+:global(.useDark) .isDetail.root :global(tbody tr) {
+    background-color: #19232f;
+}
+
+.backCell {
+    background-color: #19232f;
+}
+
+:global(.useDark) .isDetail.root :global(tbody tr:last-child td:first-child) {
+    border-bottom-left-radius: 8px;
+}
+:global(.useDark) .isDetail.root :global(tbody tr:last-child td:last-child) {
+    border-bottom-right-radius: 8px;
+}
+:global(.useDark) .header {
+    color: #bfc5d2;
+    font-family: Roboto, serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    /*#828282;*/
+    background-color: #131b26;
+}
+:global(.useDark) .isDetail .header {
+    font-weight: 500;
+    color: #d1e4f5;
+    background-color: #23305e;
+}
+:global(.useDark .ant-table-thead > tr > th .ant-table-filter-icon) {
+    color: #858585;
+}
+:global(.useDark .ant-table-thead > tr > th .ant-table-column-sorter) {
+    vertical-align: top;
+}
+:global(.useDark .ant-table-thead > tr > th .ant-table-column-sorter .ant-table-column-sorter-inner) {
+    color: #858585;
+}
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions) {
+    border: none;
+}
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters .ant-table-filter-icon.ant-table-filter-open) {
+    color: rgba(255, 255, 255, 0.45);
+    background: #393939;
+}
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .anticon-filter:hover),
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .ant-table-filter-icon:hover) {
+    color: rgba(255, 255, 255, 0.45);
+    background: #393939;
+}
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .anticon-filter:active),
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-filters:hover .ant-table-filter-icon:active) {
+    color: rgba(255, 255, 255, 0.65);
+}
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:hover) {
+    background: #292929;
+}
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:hover .anticon-filter),
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:hover .ant-table-filter-icon) {
+    background: #363636;
+}
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:active .ant-table-column-sorter-up:not(.on)),
+:global(.useDark .ant-table-thead > tr > th.ant-table-column-has-actions.ant-table-column-has-sorters:active .ant-table-column-sorter-down:not(.on)) {
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.rela {
+    position: relative;
+}
+
+:global(.useDark) .cell {
+    border-bottom: 1px solid transparent;
+    font-family: Matter, sans-serif;
+    font-size: 14px;
+    color: #f1f1f1;
+}
+:global(.useDark) .isDetail .cell {
+    border-bottom: 1px solid transparent;
+    font-family: Matter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.29px;
+    color: #ffffff;
+}
+
+/*:global(.useDark) .row:nth-child(even), :global(.useDark) .rowEven {*/
+/*    background: #0c121b;*/
+/*}*/
+/*:global(.useDark) .row:nth-child(odd), :global(.useDark) .rowOdd {*/
+/*    background: #19232f;*/
+/*}*/
+
+:global(.useDark) .isDetail .row:nth-child(even), :global(.useDark) .isDetail .rowEven {
+    background: unset;
+}
+:global(.useDark) .isDetail .row:nth-child(odd), :global(.useDark) .isDetail .rowOdd {
+    background: unset;
+}
+
+/*:global(.useDark) .row:hover, :global(.useDark) .rowEven:hover, :global(.useDark) .rowOdd:hover {*/
+/*    background: #344962;*/
+/*}*/
+/*:global(.useDark) .row .selected, :global(.useDark) .rowEven .selected, :global(.useDark) .rowOdd .selected {*/
+/*    background: #131b26;*/
+/*}*/
+
+:global(.useDark) .isDetail:not(.noHover) .row:hover, :global(.useDark) .isDetail:not(.noHover) .rowEven:hover, :global(.useDark) .isDetail:not(.noHover) .rowOdd:hover {
+    background: #284192;
+}
+:global(.useDark) .isDetail:not(.noHover) .row .selected, :global(.useDark) .isDetail:not(.noHover) .rowEven .selected, :global(.useDark) .isDetail:not(.noHover) .rowOdd .selected {
+    background: #2e5bff;
+}
+:global(.useDark) .isDetail.noHover .row:hover, :global(.useDark) .isDetail.noHover .rowEven:hover, :global(.useDark) .isDetail.noHover .rowOdd:hover {
+    background: #1f2c3b;
+}
+:global(.useDark) .isDetail.noHover .row .selected, :global(.useDark) .isDetail.noHover .rowEven .selected, :global(.useDark) .isDetail.noHover .rowOdd .selected {
+    background: #27384b;
+}
+
+.tableHorizontal {
+    width: 100%;
+    overflow-x: auto;
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.separator1 {
+    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+.separatorDark {
+    border-bottom: 1px solid rgba(0,0,0,0.33) !important;
+}
+
+.separatorDark2 {
+    border-bottom: 2px solid rgba(0,0,0,0.33) !important;
+}

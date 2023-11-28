@@ -1,0 +1,13 @@
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 24px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+}

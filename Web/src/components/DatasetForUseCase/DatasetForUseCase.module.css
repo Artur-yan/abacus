@@ -1,0 +1,31 @@
+
+:global(.useDark) .buttonDone :global(.ant-btn) {
+    background: #2e384d;
+    border: none;
+    color: white;
+}
+
+.popback :global(.ant-popover-inner-content) {
+    background-color: #242b34;
+    padding: 10px 22px 19px 22px;
+}
+
+.popback :global(.ant-popover-title) {
+    background-color: #242b34;
+    text-align: center;
+    border-bottom: none !important;
+    font-family: Matter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff !important;
+    padding-top: 14px;
+}
+
+.popback :global(.ant-popover-arrow) {
+    border-color: #242b34 !important;
+    width: 16px;
+    height: 16px;
+    border-width: 8px;
+}
+
+

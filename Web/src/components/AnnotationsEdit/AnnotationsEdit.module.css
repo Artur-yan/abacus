@@ -1,0 +1,295 @@
+.annotationsPage {
+	margin: 0 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.annotations {
+	padding: 24px;
+}
+
+.annotationsTitle {
+	font-size: 24px;
+}
+
+.annotationsContainer {
+	padding: 12px 16px 8px;
+	margin-top: 0;
+}
+
+.tagsContainer {
+	padding-bottom: 8px;
+	max-height: 108px;
+	overflow-y: auto;
+}
+
+.tagsInner {
+	display: flex;
+	margin-bottom: 8px;
+	position: sticky;
+	top: 0;
+	background-color: #0b131e;
+}
+
+.tagList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding-top: 8px;
+}
+
+.tagList * {
+	border-radius: 4px;
+}
+
+.tagActions {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.filterContainer {
+	display: flex;
+	flex: 1;
+	align-items: center;
+}
+
+.filterContainer input {
+	max-width: 256px;
+}
+
+.labelText {
+	white-space: nowrap;
+	margin-right: 4px;
+}
+
+.tagActions button {
+	font-size: 12px;
+}
+
+.addEditTag {
+	display: grid;
+	grid-gap: 10px;
+}
+
+.addEditTagTitle {
+	font-size: 12px;
+}
+
+.addEditTag textarea {
+	outline: none;
+	border: solid 1px #686868;
+	background-color: transparent;
+	resize: none;
+	height: 77px;
+	color: #fff;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.textContainer {
+	padding: 15px;
+	font-size: 15px;
+	position: relative;
+	overflow-y: auto;
+	border: solid 1px #686868;
+}
+
+.saveContainerWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 16px 0 0;
+	align-self: flex-end;
+  }
+
+.saveContainer {
+	display: flex;
+}
+
+.saveContainerLeft {
+	justify-content: flex-start;
+}
+
+.saveContainerRight {
+	justify-content: flex-end;
+}
+
+.saveInner {
+	display: grid;
+	grid-gap: 16px;
+	grid-template-columns: repeat(2, minmax(min-content, max-content));
+}
+
+.addTokenModal {
+	/* position: absolute; */
+	z-index: 999;
+	/* top: 100%;
+	left: 100%; */
+	width: 364px;
+	padding: 16px 24px 15px 23px;
+	background-color: #242b34;
+}
+
+.addTokenModalListContainer {
+	border: solid 1px #686868;
+	margin-top: 20px;
+	height: 90px;
+	position: relative;
+}
+
+.addTokenModalList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	padding: 6px;
+}
+
+.annotationsTextTitle {
+	display: flex;
+	margin: 8px auto 4px;
+	font-size: 12px;
+}
+
+.selectTagActions {
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+}
+
+.tagForText {
+	margin-left: 6px;
+	font-size: 10px;
+	background: #fff;
+	padding: 0 10px;
+	display: inline-block;
+	align-items: center;
+	white-space: nowrap	;
+	line-height: 17px;
+	margin-top: 3px;
+	vertical-align: top;
+}
+
+.textWithTag {
+	display: inline;
+	align-items: center;
+	gap: 10px;
+	/* height: 20px; */
+}
+
+.textMark {
+	padding: 0 0 0 8px;
+	margin: 0 .25em;
+	margin-left: 0;
+	display: inline;
+	color: #fff;
+	font-size: 15px;
+}
+.confirmDialog {
+	width: 500px;
+}
+
+.annotationsHeader{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.annotationWidgetHeader {
+	align-items: center;
+	text-align: center;
+	font-family: Roboto, serif;
+	font-size: 12px;
+	background-color: #23305e;
+	height: 40px;
+	width: 100%;
+	display: flex;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #d1e4f5;
+	padding: 16px 0 16px 20px;
+	/* border-top-left-radius: 8px;
+	border-top-right-radius: 8px; */
+	position: sticky;
+	top: 0;
+}
+
+.tableContainer [class*="headerRow"] {
+	height: 40px !important;
+}
+
+.payloadContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.transitionNone,
+.transitionNone * {
+	transition: none;
+}
+
+.navigateButton[class*="btn"] {
+	margin: 0 8px 8px 0;
+	border-radius: 4px;
+}
+
+.navigateButton.right[class*="btn"] {
+	margin: 0 0 8px 0;
+}
+
+
+.navigateButton[class*="btn"] * {
+	opacity: 1;
+}
+
+.navigateButton[class*="btn"]:hover * {
+	color: #40a9ff;
+}
+
+.navigateButton[class*="btn"]:disabled,
+.navigateButton[class*="btn"]:disabled:hover {
+	color: rgb(255, 255, 255, 0.55);
+	border: rgb(255, 255, 255, 0.55) 1px solid;
+}
+
+.navigateButton[class*="btn"]:disabled:hover * {
+	color: rgb(255, 255, 255, 0.55);
+}
+
+.navigationLinkText {
+	cursor: pointer;
+}
+
+.navigationLinkText:hover {
+    text-decoration: underline;
+}
+
+.dropper:global(.ant-upload.ant-upload-drag) {
+    background-color: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.35);
+}
+
+.dropper:global(.ant-upload.ant-upload-drag-hover) {
+    background-color: rgba(255,255,255,0.3);
+}
+
+:global(.ant-upload-list-item-name) {
+	color: rgba(255,255,255,0.75);
+}
+
+:global(.ant-upload-list-item:hover .ant-upload-list-item-info) {
+    background-color: #353e42;
+}
+
+:global(.ant-upload-list-item-info .anticon-delete) {
+    color: rgba(255,255,255,0.75);
+}

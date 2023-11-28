@@ -1,0 +1,108 @@
+.bannerContainer {
+  background: #838344;
+  border-radius: 4px;
+  border: 1px solid #b6b63a;
+  padding: 7px 10px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.explanation {
+  border: 1px solid #686868;
+  background-color: transparent;
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-right: 4px;
+  color: white;
+  padding: 8px 16px 8px 8px;
+  font-family: Matter, Roboto, sans-serif;
+  white-space: pre-line;
+  flex: 1;
+  overflow: auto;
+}
+
+.explanationTitle {
+  color: #d1e4f5;
+}
+
+.explanationContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.codeExplanationContainer {
+  margin-right: 8px;
+}
+
+.codeExplanationContainer [class*="SplitPane"] {
+  overflow: hidden;
+}
+
+.codeExplanationContainer [class*="Pane1"] {
+  margin-right: 12px;
+}
+
+.codeExplanationContainer [class*="Pane2"] {
+  margin-left: 12px;
+}
+
+.codeExplanationContainer [class*="Resizer vertical"],
+.codeExplanationContainer [class*="Resizer vertical"]:hover {
+  width: 12px;
+}
+
+.codeInExplanation {
+  background-color: #d1e4f544;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.generateExplanationButton {
+  margin-left: 16px;
+}
+
+.generateExplanationButton svg {
+  margin-bottom: 8px;
+}
+
+.analyzingTextContainer {
+  width: 112px;
+  font-size: 14px;
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.warning {
+  border: 1px solid #c0c0c0;
+  background: #808080;
+  padding: 10px;
+  color: yellow;
+  margin-top: 5px;
+  white-space: pre-line;
+}
+
+.checkingCode:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+  animation: ellipsis steps(4, end) 2000ms infinite;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em;
+  }
+}
+
+.actionsButton {
+  margin: 4px;
+}

@@ -1,0 +1,217 @@
+
+
+:global(.useDark) .inputBlack {
+    background-color: #000000;
+    border-radius: 4px;
+    color: rgba(255,255,255,0.26);
+}
+:global(.useLight) .inputBlack {
+    background-color: white;
+    border-radius: 4px;
+    color: rgba(0,0,0,0.26);
+}
+
+.inputBlack :global(.ant-input-group) {
+    border: 1px solid rgba(151,151,151,0.52);
+}
+
+.inputBlack:focus {
+    color: rgba(255,255,255,1);
+}
+
+.inputBlack :global(.ant-input), .inputBlack :global(.ant-input::placeholder) {
+    font-size: 12px;
+    border-color: transparent;
+    outline: none;
+    text-align: center;
+}
+
+:global(.useDark) .inputBlack :global(.ant-input), :global(.useDark) .inputBlack :global(.ant-input::placeholder) {
+    color: rgba(255, 255, 255, 0.26);
+    background-color: #000000;
+}
+:global(.useLight) .inputBlack :global(.ant-input) {
+    color: rgba(0, 0, 0, 0.26);
+    background-color: white;
+}
+:global(.useLight) .inputBlack :global(.ant-input) {
+    border: 1px solid rgba(0,0,0,0.34);
+}
+
+.inputBlack :global(.ant-input::-webkit-input-placeholder), .inputBlack :global(.ant-input::-moz-placeholder), .inputBlack :global(.ant-input::-ms-input-placeholder) {
+    font-size: 12px;
+    color: rgba(255,255,255,0.26);
+}
+
+:global(.useDark) .inputBlack :global(.ant-input:focus), :global(.useDark) .inputBlack :global(.ant-input:hover) {
+    /*border-color: transparent;*/
+    background-color: #000000;
+    color: rgba(255, 255, 255, 1);
+    outline: none;
+    box-shadow: none;
+}
+:global(.useLight) .inputBlack :global(.ant-input:focus), :global(.useLight) .inputBlack :global(.ant-input:hover) {
+    /*border-color: transparent;*/
+    background-color: white;
+    color: rgba(0, 0, 0, 1);
+    outline: none;
+    box-shadow: none;
+}
+
+.inputBlack :global(.ant-input-affix-wrapper:hover) :global(.ant-input:not(.ant-input-disabled)) {
+    border-color: transparent;
+}
+
+.rootFocus :global(.ant-input) {
+    border: 1px solid #40a9ff;
+    border-radius: 4px;
+}
+
+.inputBlack :global(.ant-input-affix-wrapper) {
+    background-color: rgba(151,151,151,0.72);
+    color: rgba(255,255,255,0.26);
+    border-color: transparent;
+    transition: color 20ms;
+    padding: 0 0 1px 9px;
+}
+
+.inputBlack.rootFocus :global(.ant-input-affix-wrapper) {
+    color: rgba(255, 255, 255, 1);
+}
+
+:global(.useLight) .inputBlack.rootFocus :global(.ant-input-affix-wrapper) {
+    color: rgba(0, 0, 0, 1);
+}
+
+.selected .solutionImg {
+    border: 4px solid #2E5BFF;
+}
+
+.solutionCheck {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 50%;
+    margin-left: -12px;
+    opacity: 0;
+}
+
+.selected .solutionCheck {
+    opacity: 1;
+}
+
+.solutionImg {
+    border: 4px solid transparent;
+    border-radius: 50%;
+}
+
+.solutionCircle {
+    opacity: 0;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 4px;
+}
+
+.selected .solutionCircle {
+    opacity: 0.72;
+    background-color: black;
+}
+
+
+
+
+.selected .useCasesImg {
+    border: 4px solid #2E5BFF;
+}
+
+.useCasesCheck {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 50%;
+    margin-left: -12px;
+    opacity: 0;
+}
+
+.selected .useCasesCheck {
+    opacity: 1;
+}
+
+.useCasesImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 4px solid transparent;
+    border-radius: 14px;
+}
+
+.useCasesCircle {
+    opacity: 0;
+    border-radius: 9px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.selected .useCasesCircle {
+    opacity: 0.72;
+    background-color: black;
+}
+
+.topSubItems .subitemMenu, .topSubItems .subitemMenuTitle {
+    font-family: Matter, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    font-weight: 300;
+    color: #D1E4F5 !important;
+}
+.topSubItems .subitemMenuTitle {
+    font-weight: 400;
+    color: white !important;
+}
+.topSubItems .subitemMenu:hover, .topSubItems .subitemMenuTitle:hover {
+    color: #3b5cbc !important;
+}
+
+.topSubItems .subitemMenu,
+.topSubItems .subitemMenuTitle {
+    font-family: Matter, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    font-weight: 300;
+    color: #d1e4f5 !important;
+}
+.topSubItems .subitemMenuTitle {
+    font-weight: 400;
+    color: white !important;
+}
+.topSubItems .subitemMenu:hover,
+.topSubItems .subitemMenuTitle:hover {
+    color: #3b5cbc !important;
+}
+
+.topSubItems .textItems {
+    display: block;
+    padding: 10px 16px;
+}
+
+.spaceBottom12 {
+    padding-bottom: 12px;
+}
+
+.solutionsMenu {
+    overflow: hidden;
+    height: 333px;
+}
+
+
+
+

@@ -1,5 +1,0 @@
-{
-  "sideEffects": false,
-  "main": "../../../cjs/ui/toast/ui.toast.js",
-  "module": "../../../esm/ui/toast/ui.toast.js"
-}

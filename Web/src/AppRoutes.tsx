@@ -23,6 +23,7 @@ function AppRoutes() {
       <Route path={'/app/' + PartsLink.welcome} element={<MainPageRoute mode={PartsLink.welcome} />} />
 
       <Route path={'/app/' + PartsLink.config_2fa} element={<MainPageRoute mode={PartsLink.config_2fa} />} />
+      <Route path={'/app/' + PartsLink.config_2fa + '/:email'} element={<MainPageRoute mode={PartsLink.config_2fa} />} />
       <Route path={'/app/' + PartsLink.signup + '/:email'} element={<MainPageRoute mode={PartsLink.signup} />} />
       <Route path={'/app/' + PartsLink.signup} element={<MainPageRoute mode={PartsLink.signup} />} />
       <Route path={'/app/' + PartsLink.workspace_join + '?allowBack=:allowBack'} element={<MainPageRoute mode={PartsLink.workspace_join} />} />

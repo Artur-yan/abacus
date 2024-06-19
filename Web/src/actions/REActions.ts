@@ -33,6 +33,7 @@ const REActions = Reflux.createActions([
   'fullRefreshHappened',
   'annotationTagModalForce',
   'initiateTwoFactorAuthentication',
+  'initiateTwoFactorAuthentication',
 ]);
 
 export default REActions;
